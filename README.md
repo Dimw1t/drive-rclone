@@ -1,5 +1,7 @@
 # drive-rclone
 
+![image](/.img/oM4FUca.png)
+
 Repositorio con instrucciones para montar Google Drive en sistemas Linux utilizando `rclone`.
 
 rclone permite montar Google Drive como un sistema de archivos local en tu máquina, lo que te permite interactuar con tus archivos de Drive (leer, escribir, copiar, mover) directamente desde la línea de comandos o aplicaciones, como si fueran archivos locales. También permite sincronizar, hacer copias de seguridad y transferir archivos entre Google Drive y otros servicios en la nube de manera eficiente.
