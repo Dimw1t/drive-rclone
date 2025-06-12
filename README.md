@@ -56,6 +56,19 @@ rclone mount gdrive:google-drive /home/dimw1t/Drive --allow-other --daemon
 ### ✅ Verificación:
 `
 df
+
+### Crear Crontab
+
+```
+crontab -e
+```
+Me copio todo lo que tengo en Documentos en la caropeta de Drive y lo sincronizo
+
+```
+*/5 * * * * cp -f -r /home/dimw1t/Documentos/* /home/dimw1t/Drive/
+*/20 * * * * rclone sync /home/dimw1t/Drive gdrive:google-drive
+
+```
 `
 
 
